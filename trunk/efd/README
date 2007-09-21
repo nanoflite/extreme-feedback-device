@@ -1,0 +1,20 @@
+Hi,
+
+  These are the source files for the extreme feedback device I've build.
+  The layout is as follows:
+
+  docs/
+    Contains the schematic and an image or two of the finished device.
+  firmware/
+    The source files for the firmware. I used an ATTiny2313 for it, but you can probably use other
+    AVRs as well. Please look at the documentation for the excellent AVR-USB driver at
+    http://www.obdev.at/products/avrusb/index.html to find out which devices are supported.
+  driver/
+    The source files for libusb driver. As far as I know, libusb works on Win32, Linux and OSX,
+    but I've only used it on Linux (SuSE10.2), so don't expect it all to work out-of-the-box
+    on the other operating systems.
+  CCrb/
+    Plugin for CruiseControlrb to use the device as build feedback.
+
+  Best regards,
+  Johan
